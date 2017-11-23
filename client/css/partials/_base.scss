@@ -1,0 +1,17 @@
+@import "mixins";
+input.common {
+    border-width: none;
+    display: block;
+    margin: 0 auto;
+    width: ptr(200px);
+    height: ptr(28px);
+}
+
+button.common {
+    display: block;
+    border: ptr(3px) solid #403F3F;
+    background-color: #060E11;
+    width: ptr(100px);
+    height: ptr(30px);
+    color: #ccc;
+}
